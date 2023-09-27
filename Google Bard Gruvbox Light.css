@@ -29,14 +29,14 @@ h2 {
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
-    background-color: #fabd2f !important;
+    background-color: #fbf1c7 !important;
 }
 
     
   
  /*Prompt Suggestion Color*/   
     :root .dark-theme .gmat-mdc-chip.mat-mdc-chip .mdc-evolution-chip__text-label{
-        color:#fabd2f;
+        color:#fb4934;
     }
     
 /*Selected all three UNDDERSTAND < CREATE < EXPLORE< */
@@ -53,7 +53,7 @@ div.prompt-example{
     
  /*sugested prompts property color*/
     .mat-mdc-chip-action-label {
-    color: #fabd2f !important;
+    color: #ebdbb2 !important;
 }
 
         /*SUGGESTED PROMPTS BUTTON*/
@@ -61,7 +61,7 @@ div.prompt-example{
 /*Suggested Prompts Button color */
     /*Added custom roundess to the button as well*/
 .mdc-evolution-chip__action {
-    background-color: rgb(35, 35, 35) !important;
+    background-color: #3c3836 !important;
     border-radius: 25px !important;
 }
 
@@ -100,7 +100,7 @@ div.prompt-example{
     
     
   
-    
+    /*LOCATOIN TAGS */
     
 /* BARD LOCATION HIDDEN TAGS */
 /* Hides actual location */
@@ -269,15 +269,19 @@ div.markdown>p:hover,
     
     
     
+       /*BACKgournd chat container **/
+    
+    .response-container{
+        background-color : #ebdbb2 !important ; 
+    }
     
     
     
     
-    
-    
-    
-    
-    
+    /*CODE CONTAINER*/
+     .code-block, .code-container{
+        background-color : #fbf1c7 !important ; 
+    }
     
     
     
@@ -325,6 +329,11 @@ div.markdown>p:hover,
 }
     
     
+    /* Bulleted text colors */
+    .markdown[_ngcontent-ng-c1922955155] ol li, .markdown[_ngcontent-ng-c1922955155] ul li {
+    margin-bottom: 10px;
+         color: #fb4934 !important ;
+}
 
 /* Recent , caution and bard may display inaccurate information buttons*/
     ul, .gmat-overline, li:before, .gmat-caption {
@@ -455,14 +464,9 @@ code,.faq-button-ogb{
 
 /*code functions param*/
 .hljs-params {
-    color: #ff422c !important;
+    color: #fb4934 !important;
 }
 
-        .code-block , code {
-   color : white !important ; 
-    background-color: white !important;
-   
-}
 
    
 
@@ -517,10 +521,11 @@ code,.faq-button-ogb{
 
 
     
-    }
- 
-}
-    
 
+    }
+
+    
+    
+}
 
 
