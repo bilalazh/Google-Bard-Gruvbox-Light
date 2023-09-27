@@ -1,4 +1,4 @@
-    /* ==UserStyle==
+        /* ==UserStyle==
 @name         Google Bard Gruvbox Light
 @namespace    github/bilalazh
 @version      1.0.0
@@ -29,7 +29,7 @@ h2 {
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
-    background-color: #689d6a !important;
+    background-color: #427b58 !important;
 }
 
     
@@ -46,14 +46,14 @@ div.prompt-example{
     background: none !important;
     -webkit-background-clip: initial !important;
     background-clip: initial !important;
-    color: #fbf1c7 !important;
+    color: #f2e5bc !important;
     text-fill-color: initial !important;
 }
 
     
  /*sugested prompts property color*/
     .mat-mdc-chip-action-label {
-    color: #43403c !important;
+    color: #ebdbb2 !important;
 }
 
         /*SUGGESTED PROMPTS BUTTON*/
@@ -61,13 +61,13 @@ div.prompt-example{
 /*Suggested Prompts Button color */
     /*Added custom roundess to the button as well*/
 .mdc-evolution-chip__action {
-    background-color: #fbf1c7 !important;
+    background-color: #232323 !important;
     border-radius: 25px !important;
 }
 
     /*Change of color when you hover over the button */
 .mdc-evolution-chip__action:hover {
-    background-color: #427b58 !important;
+    background-color: #fb4934 !important;
 }    
     
     /*Baclground color of the chat container*/
@@ -86,13 +86,13 @@ div.prompt-example{
     /*Old chats color*/
     /*Sidebar conversations color fixed as well */
     .conversation-title {
-    color: #fabd2f !important;
+    color: #333 !important;
 }
 
 /*The selextion color of the convo */
     /*Old ugly green color will be replaced here */
 .conversation.selected {
-    background-color: #3c3836 !important;
+    background-color: #665c54 !important;
 }
 
     
@@ -159,7 +159,7 @@ location-footer.ng-star-inserted {
     
     /* Change the background color of the header */
 header.gb_Ka {
-  background-color: #333 !important; /* Green background */
+  background-color: #d5c4a1 !important; /* Green background */
 }
 
 /* Change the font and z-index of the header */
@@ -194,11 +194,11 @@ header.gb_Ka {
     
 /*hover on text can  change it's color to helo you read a line better*/
 .markdown p[data-sourcepos]:hover {
-    color: #fabd2f !important;  /* Override other styles */
+    color: #fb4934 !important;  /* Override other styles */
 }
 
     div.markdown.markdown-main-panel ol li:hover, div.markdown.markdown-main-panel ul li:hover {
-    color: #ffff !important;
+    color: #babd1c !important;
 }
 
     
@@ -208,7 +208,7 @@ header.gb_Ka {
 .markdown[_ngcontent-ng-c2853002834] ul li:hover {
     
     /* Change to your desired margin */
-    color: #fabd2f !important
+    color: #babd1c !important
     
 }
 /* Hover Effect */
@@ -216,7 +216,7 @@ header.gb_Ka {
 div.markdown>p:hover,
 /* ... other selectors ... */ 
 .mat-icon.notranslate.mat-mdc-list-item-icon.google-symbols.mat-icon-no-color.mdc-list-item__start:hover {
-    color: #d5c4a1 !important;  /* Change to your desired hover color */
+    color: #babd1c !important;  /* Change to your desired hover color */
 }
 
     
@@ -249,7 +249,7 @@ div.markdown>p:hover,
     /*Markdown table bottom bar */
     .table-block[_ngcontent-ng-c3151600046] .table-footer[_ngcontent-ng-c3151600046] {
    
-    background-color: #232323;
+    background-color: #fabd2f;
     padding-right: 8px;
     border-top: 1px solid var(--bard-color-outline-variant);
 }
@@ -285,16 +285,18 @@ div.markdown>p:hover,
     /*Left chat history panel chat titles colors*/
     /*Conversation container*/
     
- .conversations-container[_ngcontent-ng-c3480531823] .conversation[_ngcontent-ng-c3480531823], .conversations-container[_ngcontent-ng-c3480531823] .show-more-button[_ngcontent-ng-c3480531823] {
-   color:#fbf1c7;
-}   
-    
+         .response-container {
+       background-color: #f2e5bc !important;* Change to your desired color */
+       /* Other styles */
+     }
+     ```
+
 
     /*Chat container*/
     
 
    .chat-container.at-least-mobile-large[_ngcontent-ng-c3497705168]{
-        color:#b57614; 
+        color:#ebdbb2; 
     }
     
     /*Bard response color*/
@@ -315,25 +317,25 @@ div.markdown>p:hover,
 
 
 .gb_Bd.gb_Rd.gb_Id.gb_Hd, mat-sidenav, .mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-interactive.mdc-list-item--with-leading-icon.mat-mdc-list-item-single-line.mdc-list-item--with-one-line, div.card,.mat-mdc-text-field-wrapper.mdc-text-field.ng-tns-c491895417-1.mdc-text-field--outlined.mdc-text-field--no-label,mat-form-field, .mat-expansion-panel.model-response-previews.ng-star-inserted, .multi-response-container, .response-container.ng-star-inserted, .mat-expansion-panel.model-response-previews.ng-tns-c3728856580-9.ng-star-inserted, .mat-expansion-panel.ng-star-inserted.mat-expanded.mat-expansion-panel-spacing, mat-expansion-panel-header, .mat-expansion-panel-body,.waitlist-text.top-text,.waitlist-text.bottom-text,chat-window.ng-star-inserted,.main,flex-window-container.ng-star-inserted,faq-window.ng-star-inserted>flex-window-container,.footer.ng-star-inserted,.mat-drawer-content.mat-sidenav-content{
-  background-color: rgb(35, 35, 35) !important;
+  background-color: #ebdbb2 !important;
 }
 /* main text in the editor */
     
     
 .chat-history.ng-star-inserted>div>user-query>div>div>h2,div.markdown>p, .mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-interactive.mdc-list-item--with-leading-icon.mat-mdc-list-item-single-line.mdc-list-item--with-one-line>span>span, .mat-icon.notranslate.mat-mdc-list-item-icon.google-material-icons.mat-icon-no-color.mdc-list-item__start,.mat-drawer-inner-container.ng-tns-c1668312745-0>mat-nav-list>button>span>span, .mat-drawer-inner-container.ng-tns-c1668312745-0>mat-nav-list>button>mat-icon, .response-container.ng-star-inserted>div>div>zero-state>div,.sentence-prefix, textarea,.mat-panel-title-wrapper,.mat-mdc-menu-content.mdc-list>div>button>mat-icon.mat-icon.notranslate.google-material-icons.mat-icon-no-color,.mat-mdc-menu-item.mat-mdc-focus-indicator.mdc-list-item.ng-star-inserted>mat-icon,.mat-mdc-tooltip-trigger.copy-button.mdc-icon-button.mat-mdc-icon-button.gmat-mdc-button-with-prefix.mat-unthemed.mat-mdc-button-base.gmat-mdc-button,.mat-icon.notranslate.mat-mdc-list-item-icon.google-symbols.mat-icon-no-color.mdc-list-item__start{
-  color: #ebdbb2 !important;
+  color: #babd1c !important;
 }
     
     
     /* Bulleted text colors */
-    .markdown[_ngcontent-ng-c1922955155] ol li, .markdown[_ngcontent-ng-c1922955155] ul li {
+    .markdown ol li, .markdown ul li {
     margin-bottom: 10px;
-         color: #d6bc8c !important ;
+         color: #232323 !important ;
 }
 
 /* Recent , caution and bard may display inaccurate information buttons*/
     ul, .gmat-overline, li:before, .gmat-caption {
-    color: #b57614 !important;
+    color: #f2e5bc !important;
 }
     
     /*BARD privacy notice link */
@@ -381,7 +383,7 @@ code,.faq-button-ogb{
     
     
     body, .mat-drawer-inner-container.ng-tns-c1668312745-0, .mat-mdc-nav-list.mat-mdc-list-base.mdc-list.gmat-body-2.nav-items.ng-tns-c1668312745-0.gmat-mdc-list.ng-star-inserted > button, .factuality-container, .mat-mdc-menu-content.mdc-list {
-    background-color: #3c3836 !important;
+    background-color: #f2e5bc !important;
         
 
         
@@ -504,14 +506,14 @@ code,.faq-button-ogb{
 /*Set the table footer to black*/
     /*Makes export to sheets and other text more prominent here*/
 .table-footer {
-    background-color: rgb(35, 35, 35) !important;
+    background-color: #8ec07c !important;
 }
     /*Markdown table top border color is changed to suit the dark theme beter*/
     /*Text color of the heading tr is changed as well*/
     
     .markdown table th{
         color : #babd1c !important;
-        background-color: rgb(35, 35, 35) !important;
+        background-color: #ebdbb2 !important;
     }
 
 
@@ -523,5 +525,7 @@ code,.faq-button-ogb{
     
     
 }
+
+
 
 
