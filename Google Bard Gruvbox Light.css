@@ -289,28 +289,19 @@ div.markdown>p:hover,
     
     
     
-    /*Left chat history panel chat titles colors*/
-    /*Conversation container*/
-    
- .conversations-container[_ngcontent-ng-c3480531823] .conversation[_ngcontent-ng-c3480531823], .conversations-container[_ngcontent-ng-c3480531823] .show-more-button[_ngcontent-ng-c3480531823] {
-   color:#fbf1c7;
-}   
-    
+
 
     /*Chat container*/
     
 
-   .chat-container.at-least-mobile-large[_ngcontent-ng-c3497705168]{
-        color:#fbf1c7 !important ; 
-    }
-    
+   
     /*Bard response color*/
-.model-response-text[_ngcontent-ng-c1694622410] {
+.model-response-text {
     color: #fb4934 !important;
 }    
 
     /*Hide the location icon*/
-    .location-icon[_ngcontent-ng-c3001959116] {
+    .location-icon {
     display: none;
 }
     
@@ -330,9 +321,9 @@ div.markdown>p:hover,
     
     
     /* Bulleted text colors */
-    .markdown[_ngcontent-ng-c1922955155] ol li, .markdown[_ngcontent-ng-c1922955155] ul li {
+    .markdown ol li,  ul li {
     margin-bottom: 10px;
-         color: #fb4934 !important ;
+         color: #232323 !important ;
 }
 
 /* Recent , caution and bard may display inaccurate information buttons*/
@@ -342,7 +333,7 @@ div.markdown>p:hover,
     
     /*BARD privacy notice link */
     .footer-privacy-notice-link {
-    color: #fb4934 !important;
+    color: #458588 !important;
 }
     
     
@@ -351,64 +342,11 @@ div.markdown>p:hover,
 
     /*Main bard may display adn recent button clor*/
 ul, .gmat-overline, li:before, .gmat-caption{
-  color: #928374 !important;
+  color: #fb4934 !important;
 }
     
-    
-/*Built in keywords */
-.code-block[_ngcontent-ng-c1217534234] code[_ngcontent-ng-c1217534234] .hljs-built_in, .code-block[_ngcontent-ng-c1217534234] code[_ngcontent-ng-c1217534234] .hljs-doctag, .code-block[_ngcontent-ng-c1217534234] code[_ngcontent-ng-c1217534234] .hljs-quote, .code-block[_ngcontent-ng-c1217534234] code[_ngcontent-ng-c1217534234] .hljs-regexp {
-    color:#8ec07c;
-}
-    
-/*Code comment block color*/
-.code-block[_ngcontent-ng-c1217534234] code[_ngcontent-ng-c1217534234] .hljs-comment {
-    color: #d5c4a1;
-}
-
-
-/*code button */
-code,.faq-button-ogb{
-  color: #babd1c !important;
-}
-
-
-    
-    
-    /*side bar property bar color */
-.conversations-container[_ngcontent-ng-c3480531823] .conversation.selected[_ngcontent-ng-c3480531823] {
-    background-color: #928374;
-}
 
   
-
-    /*Backgroud color for the google sugeestions color */
-    
-    
-    body, .mat-drawer-inner-container.ng-tns-c1668312745-0, .mat-mdc-nav-list.mat-mdc-list-base.mdc-list.gmat-body-2.nav-items.ng-tns-c1668312745-0.gmat-mdc-list.ng-star-inserted > button, .factuality-container, .mat-mdc-menu-content.mdc-list {
-    background-color: #d6bc8c !important;
-        
-
-        
-    .conversations-container[_ngcontent-ng-c985469450] .conversation.selected[_ngcontent-ng-c985469450] {
-       color: #fbf1c7 !important
-    }
-    
-
-
-
-        
-        
-
-
-
-
-    
-    /*editor suggestions*/
-.mat-mdc-button .mdc-button__label, .mat-mdc-unelevated-button .mdc-button__label, .mat-mdc-raised-button .mdc-button__label, .mat-mdc-outlined-button .mdc-button__label {
-    z-index: 1;
-    color:#8ec07c !important;
-}   
-    
      
         
         
@@ -425,7 +363,7 @@ code,.faq-button-ogb{
 .code-block code .hljs-selector-pseudo,
 .code-block code .hljs-template-tag,
 .code-block code .hljs-type {
-    color: #458588 !important;
+    color: #fb4934 !important;
 }
 
 /*Code block numbers*/
@@ -434,39 +372,47 @@ code,.faq-button-ogb{
 .code-block code .hljs-literal,
 .code-block code .hljs-number,
 .code-block code .hljs-symbol {
-    color: #fb4934 !important;
+    color: #8f3f71 !important;
 }
 
 /*code block titles*/
 .code-block code .hljs-class,
 .code-block code .hljs-title {
-    color: #fabd2f !important;
+    color: #282828 !important;
 }
 
 /*code block strings*/
 .code-block code .hljs-addition,
 .code-block code .hljs-code,
 .code-block code .hljs-string {
-    color: #eb85a1 !important;
+    color: #8f3f71 !important;
 }
 
 /*code block comments*/
 .code-block code .hljs-comment {
-    color: #ebdbb2 !important;
+    color: #79740e !important;
 }
 
 /*Meta comment*/
 .code-block code .hljs-meta,
 .code-block code .hljs-meta-keyword,
 .code-block code .hljs-meta-string {
-    color: #5fb9e6 !important;
+    color: #282828 !important;
 }
+    
+    .hljs-built_in{
+        color : #076678 !important; 
+    }
+    
 
 /*code functions param*/
 .hljs-params {
-    color: #fb4934 !important;
+    color: #d79921 !important;
 }
 
+    .code-block , code{
+        color : #cc241d !important ; 
+    }
 
    
 
@@ -526,6 +472,5 @@ code,.faq-button-ogb{
 
     
     
-}
 
 
