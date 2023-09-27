@@ -201,7 +201,7 @@ header.gb_Ka {
 }
 
     div.markdown.markdown-main-panel ol li:hover, div.markdown.markdown-main-panel ul li:hover {
-    color: #232323 !important;
+    color: #79740e !important;
 }
 
     
@@ -219,7 +219,7 @@ header.gb_Ka {
 div.markdown>p:hover,
 /* ... other selectors ... */ 
 .mat-icon.notranslate.mat-mdc-list-item-icon.google-symbols.mat-icon-no-color.mdc-list-item__start:hover {
-    color: #d5c4a1 !important;  /* Change to your desired hover color */
+    color: rgb(35, 35, 35) !important;  /* Change to your desired hover color */
 }
 
     
@@ -342,7 +342,7 @@ div.markdown>p:hover,
 
     /*Main bard may display adn recent button clor*/
 ul, .gmat-overline, li:before, .gmat-caption{
-  color: #fb4934 !important;
+  color: #ebdbb2 !important;
 }
     
 
@@ -411,7 +411,7 @@ ul, .gmat-overline, li:before, .gmat-caption{
 }
 
     .code-block , code{
-        color : #cc241d !important ; 
+    color : #076678 !important ; 
     }
 
    
@@ -442,29 +442,33 @@ ul, .gmat-overline, li:before, .gmat-caption{
     /*Table text color override*/
    
 .markdown table td {
-    color: #d6bc8c !important; /* Gruvbox green color */
+    color: rgb(35, 35, 35) !important; /* Gruvbox green color */
 }
 
     /*Change the color of the table text td when you hover over it */
     /*You just the text in the active column will be highlighted*/
 .markdown table td:hover {
-    color: #fabd2f !important; /* Gruvbox green color on hover */
+    color: #fb4934 !important; /* Gruvbox green color on hover */
 }
 
 /*Set the table footer to black*/
     /*Makes export to sheets and other text more prominent here*/
 .table-footer {
-    background-color: rgb(35, 35, 35) !important;
+    background-color: #79740e !important;
 }
     /*Markdown table top border color is changed to suit the dark theme beter*/
     /*Text color of the heading tr is changed as well*/
     
     .markdown table th{
-        color : #babd1c !important;
-        background-color: #232323 !important;
+        color : #ebdbb2 !important;
+        background-color: #79740e !important;
     }
 
-
+.sources-container[_ngcontent-ng-c1246662830] {
+ 
+    background-color: #3c3836 !important ;
+ 
+}
 
     
 
@@ -472,5 +476,8 @@ ul, .gmat-overline, li:before, .gmat-caption{
 
     
     
+
+
+
 
 
