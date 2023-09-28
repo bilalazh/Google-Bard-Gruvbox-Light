@@ -68,45 +68,35 @@ _replace these images_
 ### Google bard gruvbox home page
 
 
-![Google bard gruvbox home page](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/ffae49b1-ea08-4e57-81d7-c707d6c8f6d2)
 
--------------------------
-### Google bard gruvbox Light theme with side bar 
-![Google bard gruvbox Light theme with nav ](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/4bf4e4d0-0589-47b9-a056-5c48174e66b5)
+![google bard light theme homepage](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/8322db28-41f7-437f-ac66-1cb9e621544d)
+
+
+
 
 
 ----------------------------
 ### Google bard gruvbox Light theme chat preview
-![Google bard gruvbox Light theme chat preview](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/f373037b-6493-4388-9555-418676d77393)
+
+
+![Uploading google bard text .png…]()
+
 
 
 -----------------------------
 
 ### Google bard gruvbox Light theme --> Python  Code snippet
-![Google bard gruvbox Light theme code python ](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/b02efccc-aeee-4cf2-9788-5ec2ab481c04)
+
+![google bard light theme python code ](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/48e7115c-1120-4138-b3db-d2b5708226c9)
 
 
-------------------------------------
-### Google bard gruvbox Light theme --> C  Code snippet
-
-![Google bard gruvbox Light theme code c](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/76a011db-75ec-4ba4-9ff1-27ebad4d3293)
-
----------------------------------
 ### Google Bard Gruvbox Light theme markdown table view
 
-![Google Bard Gruvbox Light theme markdown table view](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/df1a66be-082f-470a-b5c3-f35fa6c2bf73)
+![google bard light mode markdown table ](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/b3a27b15-078a-4a6e-9ff7-99b70a1cd272)
+
 
 
 --------------------------------
-### Google Bard Gruvbox Light theme hover preview
-hanges the color of font when you hover over it for better reading
-
-- heres a perview
-
-
-https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/324687c4-ea49-41f8-8da2-bb219afd7004
-
------------------------------------------
 
 
 ## How to edit colors <a name="Howto-edit"></a>
