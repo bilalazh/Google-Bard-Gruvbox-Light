@@ -50,7 +50,7 @@ Not just your pretty theme comes with other helpful features like
 
 _replace think link later_
 
-To install the style, go to this [LINK HERE](https://userstyles.world/style/12183/google-bard-gruvbox-Light-theme-enable-Light-mode)) and follow the instructions to install this style. 
+To install the style, go to this [LINK HERE](https://userstyles.world/style/12268/better-google-bard-light-theme-location-bar-gone) and follow the instructions to install this style. 
 
 
 
