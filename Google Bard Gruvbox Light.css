@@ -50,7 +50,7 @@ div.prompt-example{
     /*Enter prompt*/
     /*Bytton color*/
    .text-input-field {
-         background-color: #d6bc8c !important;
+         background-color: #fbf1c7 !important;
   }
   
     /*Black text man */
@@ -59,6 +59,17 @@ div.prompt-example{
     margin: 0;
     padding: 0;
     counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+    /*Button black */
+    /* new cchat button upper there too */
+    span.gmat-subtitle-2{
+        color : black !important ; 
+    }
+
+
+ ql-editor {
+    
+    color : #076678 !important ; 
 }
 
 
@@ -537,21 +548,25 @@ ul, .gmat-overline, li:before, .gmat-caption{
 /*Set the table footer to black*/
     /*Makes export to sheets and other text more prominent here*/
 .table-footer {
-    background-color: #79740e !important;
+    background-color: #3c3836 !important;
 }
     /*Markdown table top border color is changed to suit the dark theme beter*/
     /*Text color of the heading tr is changed as well*/
     
     .markdown table th{
-        color : #ebdbb2 !important;
-        background-color: #79740e !important;
+        color : #fbf1c7 !important;
+        background-color: #282828 !important;
     }
 
-.sources-container[_ngcontent-ng-c1246662830] {
+.sources-container {
  
     background-color: #3c3836 !important ;
  
 }
+    
+    .table-block .export-sheets-button {
+   color : #3c3836 !important ; 
+    }
 
 
 
