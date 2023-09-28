@@ -17,19 +17,19 @@
     /*HELLO AGAIN H! HEADING*/
     /* Recommended to use h1 selector */
   h1 {
-    color: #fb4934 !important;
+    color: #665c54 !important;
 }
 
     /*H2 color change */
     /*Tell me What's on your mind  */
 h2 {
-    color: #665c54 !important;
+    color: #3c3836 !important;
 }
 
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
-    background-color: #fbf1c7 !important;
+    background-color: #8ec07c !important;
 }
 
     
@@ -37,7 +37,7 @@ div.prompt-example{
     /*Chat scoller ugly */
 .chat-history:after {
     content: "";
-    background-color: #d6bc8c !important ;
+    background-color: #fbf1c7 !important ;
     display: block;
     position: -webkit-sticky;
     position: sticky;
@@ -47,6 +47,28 @@ div.prompt-example{
 }
 
 
+    /*Enter prompt*/
+    /*Bytton color*/
+   .text-input-field {
+         background-color: #d6bc8c !important;
+  }
+  
+    /*Black text man */
+    .ql-editor p, .ql-editor ol, .ql-editor ul, .ql-editor pre, .ql-editor blockquote, .ql-editor h1, .ql-editor h2, .ql-editor h3, .ql-editor h4, .ql-editor h5, .ql-editor h6 {
+        color : #282828 !important ; 
+    margin: 0;
+    padding: 0;
+    counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+
+
+    /*all the buttons*/
+    /*icons buttons*/
+    :root .dark-theme .gmat-mdc-button.mat-mdc-icon-button {
+    --mdc-icon-button-icon-color: #3c3836;
+    --mat-mdc-button-persistent-ripple-color: rgb(35, 35, 35);
+    --mat-mdc-button-ripple-color: rgba(232,234,237,0.1);
+}
     
   
  /*Prompt Suggestion Color*/   
@@ -61,7 +83,7 @@ div.prompt-example{
     background: none !important;
     -webkit-background-clip: initial !important;
     background-clip: initial !important;
-    color: rgb(35, 35, 35) !important;
+    color: #282828 !important;
     text-fill-color: initial !important;
 }
 
@@ -76,7 +98,7 @@ div.prompt-example{
 /*Suggested Prompts Button color */
     /*Added custom roundess to the button as well*/
 .mdc-evolution-chip__action {
-    background-color: #3c3836 !important;
+    background-color: #666363 !important;
     border-radius: 25px !important;
 }
 
@@ -88,7 +110,7 @@ div.prompt-example{
     /*Baclground color of the chat container*/
     /*Breaks often */
    .chat-container {
-    background-color: #d6bc8c !important;
+    background-color: #fbf1c7 !important;
 }
 
     
@@ -107,7 +129,53 @@ div.prompt-example{
 /*The selextion color of the convo */
     /*Old ugly green color will be replaced here */
 .conversation.selected {
-    background-color: #666363 !important;
+    background-color: #fabd2f !important;
+}
+    
+    /*This is the button which was hard to select man */
+.conversations-container .conversation:hover {
+    background-color: #fb4934;
+}
+
+    /*THis was pain please send help */
+    /*Hover over the buttons make it white please */
+    .conversations-container .conversation:hover{
+        background-color : #d6bc8c !important ; 
+    }
+    
+    /*SIDE BAR COLOR CHANGED*/
+    /*side bar chat title colors*/
+    .gmat-body-2 {
+  color: #666363 !important;
+}
+    
+    /*This is the code which changes the inline code color */
+    /*Inline code */
+    .markdown code {
+  
+    background-color: #f9f5d7 !important;
+    
+}
+    
+    
+    /*This is the button rectangle cover*/
+    
+    /*What did i do  */
+    .mat-mdc-button .mat-mdc-button-touch-target, .mat-mdc-unelevated-button .mat-mdc-button-touch-target, .mat-mdc-raised-button .mat-mdc-button-touch-target, .mat-mdc-outlined-button .mat-mdc-button-touch-target {
+    position: absolute;
+     background-color: #ebdbb2 !important ; 
+    top: 50%;
+    height: 48px;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+    
+    
+    /*The selextion color of the convo */
+    /*Old ugly green color will be replaced here */
+.conversation.selected :hover{
+    background-color: #fb4934 !important;
 }
 
     
@@ -154,7 +222,7 @@ location-footer.ng-star-inserted {
 }
 
     
-    
+
     
     
     
