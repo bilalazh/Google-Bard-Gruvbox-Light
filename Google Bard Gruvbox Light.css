@@ -17,7 +17,7 @@
     /*HELLO AGAIN H! HEADING*/
     /* Recommended to use h1 selector */
   h1 {
-    color: #3c3836 !important;
+    color: #fb4934 !important;
 }
 
     /*H2 color change */
@@ -31,6 +31,21 @@ div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
     background-color: #fbf1c7 !important;
 }
+
+    
+    /*Little line under the chat prompts page* /
+    /*Chat scoller ugly */
+.chat-history:after {
+    content: "";
+    background-color: #d6bc8c !important ;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    padding-top: 4px;
+    width: 100%;
+    z-index: 1;
+}
+
 
     
   
