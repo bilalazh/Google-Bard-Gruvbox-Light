@@ -1,12 +1,5 @@
 # Google Bard Gruvbox Light Theme
 
-
-
-
-this readme is compelte just add the files in screesnhots 
-make sure to take the screeenshots as well 
-
-
 ## Table of Contents
 1. [Description](#description)
  2. [Prerequisites](#Pre)
