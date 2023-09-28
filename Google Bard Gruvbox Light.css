@@ -1,8 +1,8 @@
         /* ==UserStyle==
-@name         Google Bard Gruvbox Dark
+@name         Google Bard Gruvbox Light
 @namespace    github/bilalazh
 @version      1.0.1
-@description  "A Dark Theme for Google Bard \"bard.google.com\""
+@description  "A Light Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
 
@@ -29,7 +29,7 @@ h2 {
     /*Prompts Containter backgound color*/
 div.prompt-example{
   /* CSS styles for the prompt suggestion card element */
-    background-color: #8ec07c !important;
+    background-color: #d6bc8c !important;
 }
 
     
@@ -111,7 +111,7 @@ div.prompt-example{
 /*Suggested Prompts Button color */
     /*Added custom roundess to the button as well*/
 .mdc-evolution-chip__action {
-    background-color: #666363 !important;
+    background-color: #3c3836 !important;
     border-radius: 25px !important;
 }
 
@@ -123,7 +123,7 @@ div.prompt-example{
     /*Baclground color of the chat container*/
     /*Breaks often */
    .chat-container {
-    background-color: #fbf1c7 !important;
+    background-color: #f9f5d7 !important;
 }
 
     
@@ -265,7 +265,7 @@ header.gb_Ka {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #d5c4a1; /* Dark background */
+  background-color: #d6bc8c; /* Dark background */
 }
 
 .gb_od:hover {
@@ -293,11 +293,11 @@ header.gb_Ka {
     
 /*hover on text can  change it's color to helo you read a line better*/
 .markdown p[data-sourcepos]:hover {
-    color: #fb4934 !important;  /* Override other styles */
+    color: #d65d0e !important;  /* Override other styles */
 }
 
     div.markdown.markdown-main-panel ol li:hover, div.markdown.markdown-main-panel ul li:hover {
-    color: #79740e !important;
+    color: #fb4934 !important;
 }
 
     
@@ -408,7 +408,7 @@ div.markdown>p:hover,
 
 
 .gb_Bd.gb_Rd.gb_Id.gb_Hd, mat-sidenav, .mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-interactive.mdc-list-item--with-leading-icon.mat-mdc-list-item-single-line.mdc-list-item--with-one-line, div.card,.mat-mdc-text-field-wrapper.mdc-text-field.ng-tns-c491895417-1.mdc-text-field--outlined.mdc-text-field--no-label,mat-form-field, .mat-expansion-panel.model-response-previews.ng-star-inserted, .multi-response-container, .response-container.ng-star-inserted, .mat-expansion-panel.model-response-previews.ng-tns-c3728856580-9.ng-star-inserted, .mat-expansion-panel.ng-star-inserted.mat-expanded.mat-expansion-panel-spacing, mat-expansion-panel-header, .mat-expansion-panel-body,.waitlist-text.top-text,.waitlist-text.bottom-text,chat-window.ng-star-inserted,.main,flex-window-container.ng-star-inserted,faq-window.ng-star-inserted>flex-window-container,.footer.ng-star-inserted,.mat-drawer-content.mat-sidenav-content{
-  background-color: #fbf1c7 !important;
+  background-color: #f9f5d7 !important;
 }
 /* main text in the editor */
     
