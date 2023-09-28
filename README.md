@@ -78,8 +78,8 @@ _replace these images_
 ----------------------------
 ### Google bard gruvbox Light theme chat preview
 
+![google bard text ](https://github.com/bilalazh/Google-Bard-Gruvbox-Light/assets/139261053/836b67aa-097d-49c3-935e-be617535adaa)
 
-![Uploading google bard text .png…]()
 
 
 
