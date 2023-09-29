@@ -2,7 +2,6 @@
 @name         Google Bard Gruvbox Light
 @namespace    github/bilalazh
 @version      1.0.0
-@updateURL   https://raw.github.com/bilalazh/Google-Bard-Gruvbox-Light/blob/main/Google-Bard-Gruvbox-Light.user.css
 @description  "A Light Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
@@ -237,10 +236,6 @@ location-footer.ng-star-inserted {
 
     
 
-    
-    
-    
-    
     
     
     /*Top black bar*/
@@ -513,12 +508,27 @@ ul, .gmat-overline, li:before, .gmat-caption{
     color : #076678 !important ; 
     }
 
+    
+    /*Sources*/
+    /*Outside sources*/
    
+ a {
+    color: #fbf1c7 !important ;
 
-    
-    
-    
-    
+    outline-color: #fbf1c7 !important  ;
+    }
+
+/*This is the sources*/
+    .sources-container {
+ 
+    background-color: #282828 !important ;
+ 
+}
+    /*Code block header */
+    /*Header is the code block here*/
+    .code-block-decoration, header{
+        background-color : #d6bc8c !important ; 
+    }
 
     
 
@@ -563,12 +573,7 @@ ul, .gmat-overline, li:before, .gmat-caption{
         background-color: #282828 !important;
     }
 
-.sources-container {
- 
-    background-color: #3c3836 !important ;
- 
-}
-    
+
     .table-block .export-sheets-button {
    color : #3c3836 !important ; 
     }
@@ -579,4 +584,3 @@ ul, .gmat-overline, li:before, .gmat-caption{
     
     
 }
-
