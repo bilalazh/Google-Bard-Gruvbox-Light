@@ -1,7 +1,7 @@
         /* ==UserStyle==
 @name         Google Bard Gruvbox Light
 @namespace    github/bilalazh
-@version      1.0.0
+@version      1.0.3
 @description  "A Light Theme for Google Bard \"bard.google.com\""
 @author       heybilalazhar@gmail.com
 @license      NO-REDISTRIBUTION==/UserStyle== */
@@ -82,7 +82,6 @@ div.prompt-example{
     --mat-mdc-button-persistent-ripple-color: rgb(35, 35, 35);
     --mat-mdc-button-ripple-color: rgba(232,234,237,0.1);
 }
-    
   
  /*Prompt Suggestion Color*/   
     :root .dark-theme .gmat-mdc-chip.mat-mdc-chip .mdc-evolution-chip__text-label{
@@ -107,14 +106,12 @@ div.prompt-example{
 }
 
         /*SUGGESTED PROMPTS BUTTON*/
-    
 /*Suggested Prompts Button color */
     /*Added custom roundess to the button as well*/
 .mdc-evolution-chip__action {
     background-color: #3c3836 !important;
     border-radius: 25px !important;
 }
-
     /*Change of color when you hover over the button */
 .mdc-evolution-chip__action:hover {
     background-color: #fb4934 !important;
@@ -228,7 +225,6 @@ mat-icon.mat-icon.notranslate.filled.location-icon {
 
     visibility: hidden !important;
 }
-
 /* Hide Entire botton div section */
 location-footer.ng-star-inserted {
     visibility: hidden !important;
@@ -295,7 +291,6 @@ header.gb_Ka {
     div.markdown.markdown-main-panel ol li:hover, div.markdown.markdown-main-panel ul li:hover {
     color: #fb4934 !important;
 }
-
     
     /*JUST HERE FOR REDUNACNY TO CHECK LATER WHY THE HELL COLROS WERE BROKEN BEFORR*/
     /*Hover on the list items in the repsonse they will change the colors , this will make focus on part of text better*/
@@ -360,35 +355,22 @@ div.markdown>p:hover,
     
     
     
-    
        /*BACKgournd chat container **/
     
     .response-container{
         background-color : #ebdbb2 !important ; 
     }
-    
-    
-    
-    
     /*CODE CONTAINER*/
      .code-block, .code-container{
         background-color : #fbf1c7 !important ; 
     }
     
-    
-    
-    
   h1 , h2  , h3 , h4 ,  h5,  h6 {
   color : #282828 !important ; 
 }
-    
-    
 
 
     /*Chat container*/
-    
-
-   
     /*Bard response color*/
 .model-response-text {
     color: #fb4934 !important;
@@ -398,16 +380,12 @@ div.markdown>p:hover,
     .location-icon {
     display: none;
 }
-    
     /*Trying lines being highlighted */
-    
-
 
 .gb_Bd.gb_Rd.gb_Id.gb_Hd, mat-sidenav, .mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-interactive.mdc-list-item--with-leading-icon.mat-mdc-list-item-single-line.mdc-list-item--with-one-line, div.card,.mat-mdc-text-field-wrapper.mdc-text-field.ng-tns-c491895417-1.mdc-text-field--outlined.mdc-text-field--no-label,mat-form-field, .mat-expansion-panel.model-response-previews.ng-star-inserted, .multi-response-container, .response-container.ng-star-inserted, .mat-expansion-panel.model-response-previews.ng-tns-c3728856580-9.ng-star-inserted, .mat-expansion-panel.ng-star-inserted.mat-expanded.mat-expansion-panel-spacing, mat-expansion-panel-header, .mat-expansion-panel-body,.waitlist-text.top-text,.waitlist-text.bottom-text,chat-window.ng-star-inserted,.main,flex-window-container.ng-star-inserted,faq-window.ng-star-inserted>flex-window-container,.footer.ng-star-inserted,.mat-drawer-content.mat-sidenav-content{
   background-color: #f9f5d7 !important;
 }
 /* main text in the editor */
-    
     
 .chat-history.ng-star-inserted>div>user-query>div>div>h2,div.markdown>p, .mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-interactive.mdc-list-item--with-leading-icon.mat-mdc-list-item-single-line.mdc-list-item--with-one-line>span>span, .mat-icon.notranslate.mat-mdc-list-item-icon.google-material-icons.mat-icon-no-color.mdc-list-item__start,.mat-drawer-inner-container.ng-tns-c1668312745-0>mat-nav-list>button>span>span, .mat-drawer-inner-container.ng-tns-c1668312745-0>mat-nav-list>button>mat-icon, .response-container.ng-star-inserted>div>div>zero-state>div,.sentence-prefix, textarea,.mat-panel-title-wrapper,.mat-mdc-menu-content.mdc-list>div>button>mat-icon.mat-icon.notranslate.google-material-icons.mat-icon-no-color,.mat-mdc-menu-item.mat-mdc-focus-indicator.mdc-list-item.ng-star-inserted>mat-icon,.mat-mdc-tooltip-trigger.copy-button.mdc-icon-button.mat-mdc-icon-button.gmat-mdc-button-with-prefix.mat-unthemed.mat-mdc-button-base.gmat-mdc-button,.mat-icon.notranslate.mat-mdc-list-item-icon.google-symbols.mat-icon-no-color.mdc-list-item__start{
   color: rgb(35, 35, 35) !important;
@@ -446,9 +424,6 @@ ul, .gmat-overline, li:before, .gmat-caption{
         
         /*Code changes */
         /*Important is used with every keyword as well*/
-
-        
-        
   /*Code keywords*/
 .code-block code .hljs-keyword,
 .code-block code .hljs-selector-attr,
@@ -529,12 +504,6 @@ ul, .gmat-overline, li:before, .gmat-caption{
     .code-block-decoration, header{
         background-color : #d6bc8c !important ; 
     }
-
-    
-
-
-  
-
     
 /* Change the background color when you hover over the element */
 .gb_ld.gb_fd.gb_rd.gb_qd.gb_Jc:hover {
